@@ -3,7 +3,12 @@ body {
 }
 
 .container {
-  background-image: url("../images/hero.jpeg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("../images/hero.jpeg");
   height: 100vh;
   background-size: cover;
   background-position: center;
